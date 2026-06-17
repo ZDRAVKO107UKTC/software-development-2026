@@ -24,6 +24,7 @@
                     <?php endfor; ?>
                 </div>
             </div>
+            <a href="musicweb/index.php"><?= t('nav_final') ?></a>
             <a href="contact.php"<?= $current === 'contact.php' ? ' class="here"' : '' ?>><?= t('nav_contact') ?></a>
             <span class="lang-switch">
                 <a href="?lang=bg" class="<?= $lang === 'bg' ? 'on' : '' ?>">BG</a>
