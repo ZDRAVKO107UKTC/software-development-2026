@@ -17,6 +17,12 @@ $translations = [
         'nav_task1'    => 'Task 1',
         'nav_task2'    => 'Task 2',
         'nav_task3'    => 'Task 3',
+        'nav_task4'    => 'Task 4',
+        'nav_task5'    => 'Task 5',
+        'nav_task6'    => 'Task 6',
+        'nav_task7'    => 'Task 7',
+        'nav_task8'    => 'Task 8',
+        'nav_task9'    => 'Task 9',
 
         'home_title'   => 'Software Development 2026',
         'home_lead'    => 'My class project, built with PHP, HTML and CSS.',
@@ -48,7 +54,12 @@ $translations = [
 
         'task2_title'  => 'Task 2 - Coffee shop "Aromat"',
         'task3_title'  => 'Task 3 - Registration form',
-        'lang_switch'  => 'БГ',
+        'task4_title'  => 'Task 4 - Shopping cart',
+        'task5_title'  => 'Task 5 - API and JSON',
+        'task6_title'  => 'Task 6 - PHPMailer',
+        'task7_title'  => 'Task 7 - Calculator',
+        'task8_title'  => 'Task 8 - Browser game',
+        'task9_title'  => 'Task 9 - HTML editor',
     ],
     'bg' => [
         'site_name'    => 'Софт. разработка 2026',
@@ -59,6 +70,12 @@ $translations = [
         'nav_task1'    => 'Задача 1',
         'nav_task2'    => 'Задача 2',
         'nav_task3'    => 'Задача 3',
+        'nav_task4'    => 'Задача 4',
+        'nav_task5'    => 'Задача 5',
+        'nav_task6'    => 'Задача 6',
+        'nav_task7'    => 'Задача 7',
+        'nav_task8'    => 'Задача 8',
+        'nav_task9'    => 'Задача 9',
 
         'home_title'   => 'Софтуерна разработка 2026',
         'home_lead'    => 'Моят проект за часа, направен с PHP, HTML и CSS.',
@@ -90,7 +107,12 @@ $translations = [
 
         'task2_title'  => 'Задача 2 - Кафене "Аромат"',
         'task3_title'  => 'Задача 3 - Регистрационен формуляр',
-        'lang_switch'  => 'EN',
+        'task4_title'  => 'Задача 4 - Количка за пазаруване',
+        'task5_title'  => 'Задача 5 - API и JSON',
+        'task6_title'  => 'Задача 6 - PHPMailer',
+        'task7_title'  => 'Задача 7 - Калкулатор',
+        'task8_title'  => 'Задача 8 - Игра в браузъра',
+        'task9_title'  => 'Задача 9 - HTML редактор',
     ],
 ];
 

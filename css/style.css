@@ -35,10 +35,31 @@ body {
     text-decoration: underline;
 }
 
-.lang-btn {
+/* language switcher: two buttons, active one highlighted */
+.lang-switch {
+    margin-left: 15px;
     border: 1px solid #888;
-    padding: 2px 8px;
-    border-radius: 3px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.lang-switch a {
+    margin: 0;
+    padding: 3px 9px;
+    color: #ccc;
+    font-size: 13px;
+}
+
+.lang-switch a:hover {
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+}
+
+.lang-switch a.on {
+    background: #3367d6;
+    color: #fff;
 }
 
 /* tasks dropdown */

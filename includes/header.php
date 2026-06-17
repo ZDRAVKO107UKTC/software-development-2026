@@ -15,15 +15,19 @@
         <nav>
             <a href="index.php"<?= $current === 'index.php' ? ' class="here"' : '' ?>><?= t('nav_home') ?></a>
             <a href="about.php"<?= $current === 'about.php' ? ' class="here"' : '' ?>><?= t('nav_about') ?></a>
-            <div class="dropdown<?= in_array($current, ['task1.php','task2.php','task3.php']) ? ' here' : '' ?>">
+            <?php $taskPages = ['task1.php','task2.php','task3.php','task4.php','cart.php','task5.php','task6.php','task7.php','task8.php','task9.php','posts.php']; ?>
+            <div class="dropdown<?= in_array($current, $taskPages) ? ' here' : '' ?>">
                 <a href="#" class="drop-toggle"><?= t('nav_tasks') ?> &#9662;</a>
                 <div class="drop-menu">
-                    <a href="task1.php"><?= t('nav_task1') ?></a>
-                    <a href="task2.php"><?= t('nav_task2') ?></a>
-                    <a href="task3.php"><?= t('nav_task3') ?></a>
+                    <?php for ($i = 1; $i <= 9; $i++): ?>
+                        <a href="task<?= $i ?>.php"><?= t('nav_task' . $i) ?></a>
+                    <?php endfor; ?>
                 </div>
             </div>
             <a href="contact.php"<?= $current === 'contact.php' ? ' class="here"' : '' ?>><?= t('nav_contact') ?></a>
-            <a class="lang-btn" href="?lang=<?= $otherLang ?>"><?= t('lang_switch') ?></a>
+            <span class="lang-switch">
+                <a href="?lang=bg" class="<?= $lang === 'bg' ? 'on' : '' ?>">BG</a>
+                <a href="?lang=en" class="<?= $lang === 'en' ? 'on' : '' ?>">EN</a>
+            </span>
         </nav>
     </header>
