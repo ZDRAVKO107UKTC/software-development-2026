@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #222;
+    background: #fff;
+}
+
+/* top bar */
+.topbar {
+    background: #333;
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.topbar nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.topbar nav a:hover,
+.topbar nav a.here {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.lang-btn {
+    border: 1px solid #888;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+/* tasks dropdown */
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin-left: 15px;
+}
+
+.dropdown .drop-toggle {
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.dropdown:hover .drop-toggle,
+.dropdown.here .drop-toggle {
+    color: #fff;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #333;
+    border: 1px solid #555;
+    border-radius: 3px;
+    min-width: 130px;
+    padding: 5px 0;
+    z-index: 20;
+}
+
+.dropdown:hover .drop-menu {
+    display: block;
+}
+
+.drop-menu a {
+    display: block;
+    margin: 0;
+    padding: 6px 14px;
+    color: #ddd;
+}
+
+.drop-menu a:hover {
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* page content */
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro h1 {
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background: #3367d6;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #284e9e;
+}
+
+/* three boxes on home */
+.cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.box {
+    flex: 1 1 220px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #3367d6;
+}
+
+/* contact form */
+.form {
+    max-width: 450px;
+    margin-top: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 7px;
+    margin-top: 4px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.ok {
+    background: #d8f0d8;
+    border: 1px solid #8bc88b;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.bad {
+    background: #f7d8d8;
+    border: 1px solid #d99;
+    padding: 10px 10px 10px 30px;
+    border-radius: 3px;
+}
+
+/* footer */
+.foot {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding: 15px 20px;
+    color: #777;
+    font-size: 13px;
+}
